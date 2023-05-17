@@ -14,8 +14,6 @@ class Student(Person):
     def print_year(self):
         print(f"my graduation year is {self.graduationyear}")
 
-
-
 x = Student("Mike", "Olsen", 2019)
 # print(x.firstname, x.lastname)
 x.printname()
