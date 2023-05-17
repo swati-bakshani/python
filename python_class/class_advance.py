@@ -7,7 +7,7 @@ class person:
 
 
     def print_details(self):
-        print(f"my name is {self.name}, age is {self.age} and college is {self.college}")
+        print(f"my name is {self.name}, age is {self.age} and college is {self.college}"+ " okay")
 
 p1 = person("swati",29)
 p2 = person("Nikhil",31)
