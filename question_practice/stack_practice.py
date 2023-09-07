@@ -11,7 +11,6 @@ class Stack:
 
     def push(self,value):
         new_node = Node(value)
-        # self.top = new_node
         if self.height == 0:
             self.top = new_node
         else:
@@ -20,29 +19,28 @@ class Stack:
         self.height += 1
 
     def pop(self):
+        # temp = self.top
         if self.height == 0:
             return None
-        else:
-            temp = self.top
-            self.top = self.top.next
-            temp.next = None
-            return temp
-
-        self.height -= 1
-
+        temp = self.top
+        self.top = self.top.next
+        temp.next = None
+        self.height -=1
 
     def print_stack(self):
         temp = self.top
         while temp is not None:
-
             print(temp.value)
             temp = temp.next
 
+
 my_stack = Stack(4)
-my_stack.push(1)
+my_stack.print_stack()
+print("pushing the value")
 my_stack.push(2)
-my_stack.push(3)
+my_stack.print_stack()
+print("pop/delect the value")
+
 my_stack.pop()
 my_stack.print_stack()
-
 
