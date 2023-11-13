@@ -17,6 +17,7 @@ else:
 
 # break the loop when x is 3
 for x in range(6):
-    if x == 3: break
+    if x == 3:
+        break
 else:
     print("finally finished!")
