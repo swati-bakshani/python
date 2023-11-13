@@ -24,5 +24,6 @@ for i in range(len(numbers)):
     for j in range(i+1, len(numbers)):
         print(f"value of j: {j}")
         if numbers[i] == numbers[j]:
-            print(str(numbers[i]) + " is a duplicate")
+            # print(str(numbers[i]) + " is a duplicate")
+            print(f"{numbers[i]} is a duplicate")
             break

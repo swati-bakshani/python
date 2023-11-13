@@ -18,8 +18,8 @@ print("-------------------------------------")
 
 i = 0
 while i < 6:
-    # print("value of i:"+ str(i))
-    print("value of i:" + str(i))
+    print(f"value of i: {i}")
+    # print("value of i:" + str(i))
     i = i+1
     if i == 3:
         continue

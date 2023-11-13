@@ -1,7 +1,9 @@
 try:
     x = 1
+    y = "hello"
     print(x)
-
+    if type(y) is not int:
+        raise Exception
 except:
     print("something went wrong")
 
