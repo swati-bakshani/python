@@ -11,6 +11,7 @@ def is_palindrome(str):
             c=1
     return c==0
 #
+
 # print(is_palindrome('abefba'))
 # print(is_palindrome('abba'))
 get_data = input("Enter the Value: ")
