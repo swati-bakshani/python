@@ -12,8 +12,8 @@ def is_palindrome(str):
     return c==0
 #
 
-# print(is_palindrome('abefba'))
-# print(is_palindrome('abba'))
-get_data = input("Enter the Value: ")
-result = is_palindrome(get_data)
-print(f"result is: {result}")
+print(is_palindrome('abefba'))
+print(is_palindrome('abba'))
+# get_data = input("Enter the Value: ")
+# result = is_palindrome(get_data)
+# print(f"result is: {result}")
