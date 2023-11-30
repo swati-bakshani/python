@@ -2,6 +2,9 @@
 
 # below string is given as input
 # str_place = 'City:kolkata-westbengal'
+"""
+output = City:kolkata-State:westbengal
+"""
 
 def add_str(input_str):
     return input_str.replace("-","-State:")
