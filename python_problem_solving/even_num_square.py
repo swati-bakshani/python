@@ -8,7 +8,8 @@
 
 # list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-# output: even no squares
+"""output: even no squares [4, 16, 36, 64, 100]"""
+
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 def even_no_square(list):
     output=[]
