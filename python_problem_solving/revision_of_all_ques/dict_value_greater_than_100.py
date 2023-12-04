@@ -5,16 +5,16 @@ my_map = {
     'd':50,
     'e':300
 }
-
-def dict_values(my_map):
+def value_greater_100(my_map,user_input):
     output_list=[]
-    output_dict = {}
     for key,value in my_map.items():
-        if value>100:
+        if value > user_input:
             output_list.append(value)
-            output_dict[key] = value
-    # return output_list
-    return output_dict
+    return output_list
+
+user_input = int(input("enter the value:"))
+print(value_greater_100(my_map,user_input))
 
 
-print(dict_values(my_map))
+
+# print(dict_values(my_map))
