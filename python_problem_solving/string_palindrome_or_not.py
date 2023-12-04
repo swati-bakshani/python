@@ -1,6 +1,7 @@
 # str ='sagar'   #ragas
 # str ='abba'  #abba
-
+# False
+# True
 def is_palindrome(str):
     len_str = len(str)
     c=0
