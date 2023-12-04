@@ -5,9 +5,13 @@
 #   so we have to print total counts i.e. 3 in this case.
 # if its 120 then ZeroDivisionError execption will come
 #   and then we have to print count o digits , output is 2 as 120 is divisible by 1,2 in its number.
+"""
+output = 3
+         1
+         1
+"""
 
-
-def f_digits_divisibility(num):
+def digits_divisibility(num):
     try:
         c=0
         for i in str(num):
@@ -17,6 +21,8 @@ def f_digits_divisibility(num):
     except ZeroDivisionError:
         return len(str(num))
 
-print(f_digits_divisibility(120))
+print(digits_divisibility(120))
+print(digits_divisibility(15674))
+print(digits_divisibility(167854))
 
 
