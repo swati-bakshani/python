@@ -1,5 +1,7 @@
 l = [1,2,3,4,5,-1,-2,2,5,4]
-
+"""
+output = true
+"""
 def add_num(l):
     if len(l)<2:
         return False
