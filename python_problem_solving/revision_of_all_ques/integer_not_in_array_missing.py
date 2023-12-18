@@ -19,14 +19,14 @@ def find_missing(arr,num):
     missing_num = find_missing(arr,num)
     print(f"The missing num is {missing_num}")
 """
-
-def find_missing_no(l):
-    for i in l:
-        if i<i+1:
-            pass
-        else:
-            break
-    return i
-l1= [1,2,3,5,6,7]
-print(missing_no(l1))
+# wrong ans
+# def find_missing_no(l):
+#     for i in l:
+#         if i<i+1:
+#             pass
+#         else:
+#             break
+#     return i
+# l1= [1,2,3,5,7,4]
+# print(find_missing_no(l1))
 
