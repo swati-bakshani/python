@@ -14,5 +14,29 @@ def dict_value(my_map,user_input):
 
     return output_list
 
+# user_input = int(input("Enter the Value: "))
+# print(dict_value(my_map,user_input))
+
+def dict_value_nick(my_map,user_input):
+    output_list = []
+    result = {}
+    for key,value in my_map.items():
+        if value > user_input:
+            result[key] = value
+            # output_list.append(value)
+
+    return result
+
 user_input = int(input("Enter the Value: "))
-print(dict_value(my_map,user_input))
+print(dict_value_nick(my_map,user_input))
+
+# def dict_key_value(my_map,user_input):
+#     output_dict = {}
+#     for key,value in my_map.items():
+#         if value > user_input:
+#             output_dict.append(key,value)
+#
+#     return output_dict
+#
+# user_input = int(input("Enter the Value: "))
+# print(dict_key_value(my_map,user_input))
