@@ -15,11 +15,11 @@ def unique_words(data):
 
     return output_list
 
-if __name__ == '__main__':
-
-    user_input = input("Enter your statement: ")
-    result = unique_words(user_input)
-    print(f"your result is {result}")
+# if __name__ == '__main__':
+#
+#     user_input = input("Enter your statement: ")
+#     result = unique_words(user_input)
+#     print(f"your result is {result}")
     # for item in result:
     #     print(f"Unieuq words from given string is: {item}")
     # for key, value in result.items():
