@@ -30,6 +30,7 @@ output =
 {5: 4, 2: 7, 3: 6, 4: 5, 1: 8}
 5
 """
+# num_list = [5,2,3,2,3,4,9,1,5]
 max_greatest= max(num_list)
 dict={}
 for i in num_list:
@@ -37,6 +38,7 @@ for i in num_list:
         dict[i]=max_greatest-i
 
 print(dict)
-print(max(dict))
+print(max(dict.keys()))
+print(max(dict.values()))
 
 
