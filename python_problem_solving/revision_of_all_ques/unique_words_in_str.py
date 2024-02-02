@@ -2,7 +2,7 @@ input_str= "swati is is good"
 def unique_words(input_str):
     dict = {}
     output_list = []
-    for i in input_str.split():
+    for i in input_str:
         if (i not in dict):
             dict[i] = 1
 
