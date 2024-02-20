@@ -1,7 +1,7 @@
 def count_char(input_str):
     count_lower,count_upper = 0,0
     for char in input_str:
-        if (char.islower()):
+        if char.islower():
             count_lower = count_lower+1
 
         elif (char.isupper()):
