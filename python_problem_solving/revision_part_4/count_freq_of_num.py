@@ -7,8 +7,7 @@ def count_freq(input_list):
             freq[num] = freq[num]+1
         else:
             freq[num] = 1
-        # freq[num] = freq.get(num,0)+1
-    return freq
 
+    return freq
 
 print(count_freq(input_list))
