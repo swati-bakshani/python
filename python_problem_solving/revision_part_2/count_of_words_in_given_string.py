@@ -15,8 +15,10 @@ if __name__ == '__main__':
     user_input = input("Enter your statement: ")
     result = unique_words(user_input)
     print(f"your result is {result}")
+
+    # print(f"your result is {unique_words(user_input)}")
     for key, value in result.items():
-        print(f"Count for {key} word is {value} ")
+        print(f"Count for {key} is {value} ")
         # print(int(key), value)
     # print(f"your result is {result}")
 
