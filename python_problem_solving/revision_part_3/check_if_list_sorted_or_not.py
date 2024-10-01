@@ -5,15 +5,14 @@ l1 = [1,2,4,5,6,7]
 l  output = False
 l1 output = true
 """
-def sorted_list(l):
-    k=0
-    for num in range(len(l)-1):
-        if (l[num] <= l[num+1]):
+def list_sorted(input_list):
+    c=0
+    for num in range(len(input_list)-1):
+        if input_list[num] <= input_list[num+1]:
             pass
         else:
-            k=1
+            c=1
             break
-    return k==0
+    return c==0
 
-print(sorted_list(l))
-print(sorted_list(l1))
+print(list_sorted(l1))
