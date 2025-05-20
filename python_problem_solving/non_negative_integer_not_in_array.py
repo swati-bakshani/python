@@ -34,5 +34,5 @@ def missingNumber(input_list):
         missing = totalSum - sumN
     return missing
 
-input_list = [0, 1, 2, 3, 4, 5, 8, 9]
+input_list = [0, 1, 2, 3, 4, 5,6, 8, 9]
 print(missingNumber(input_list))

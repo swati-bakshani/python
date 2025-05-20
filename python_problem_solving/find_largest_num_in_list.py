@@ -12,3 +12,4 @@ def largest_num(data):
     return largest
 
 print(largest_num(list))
+print(max(list))

@@ -9,6 +9,7 @@ def counter(input_list):
         freq[num] = freq.get(num,0)+1
         print(num,freq[num])
 
+
     return freq
 
 print(counter(input_list))

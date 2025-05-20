@@ -10,7 +10,7 @@ def dict_value(my_map):
     output_list = []
     for key,value in my_map.items():
         if value > 100:
-            output_list.append(value)
+            # output_list.append(value)
             dict[key] = value
     return dict
     # return output_list .... .. [150,250,400]
